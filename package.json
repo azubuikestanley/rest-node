@@ -1,0 +1,20 @@
+{
+  "name": "rest-api-playlist",
+  "version": "1.0.0",
+  "description": "Node and express rest api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Azubuike I. Stanley",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
