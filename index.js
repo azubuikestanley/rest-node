@@ -13,6 +13,8 @@ mongoose.connect('mongodb://localhost/ninjago', {
 });
 mongoose.Promise = global.Promise;
 
+app.use(express.static('public'));
+
 //Bodyparser Middleware
 app.use(express.json());
 
